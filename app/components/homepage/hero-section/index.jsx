@@ -21,7 +21,7 @@ function HeroSection() {
       <div className="lg:grid items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
-            Hello, This is {' '}
+            Hello, this is {' '}
             <span className=" text-pink-500">{personalData.name}</span>
             {`, I'm a beginner `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
@@ -176,13 +176,6 @@ function HeroSection() {
                 <span className="mr-2 text-pink-500">new</span>
                 <span className="text-blue-400">RomanManzhelii</span>
                 <span className="text-gray-400">();</span>
-              </div>
-              <div className="ml-12">
-                <span className="text-cyan-400">System.out.println</span>
-                <span className="text-gray-400">(</span>
-                <span className="text-cyan-400">roman.</span>
-                <span className="text-white">invitation</span>
-                <span className="text-gray-400">);</span>
               </div>
               <div className="ml-12">
                 <span className="text-cyan-400">roman.</span>
