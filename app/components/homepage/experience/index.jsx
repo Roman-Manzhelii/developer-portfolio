@@ -5,7 +5,7 @@ import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
-import experience from '/public/lottie/code.json';
+import experience from '/public/lottie/experience.json';
 
 function Experience() {
   return (
@@ -31,7 +31,7 @@ function Experience() {
       <div className="py-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
-            <div className="w-full h-full">
+            <div className="w-8/12 h-8/12 sm:w-1/2 sm:h-1/2 md:w-1/2 md:h-1/2 lg:w-full lg:h-full">
               <AnimationLottie animationPath={experience} />
             </div>
           </div>

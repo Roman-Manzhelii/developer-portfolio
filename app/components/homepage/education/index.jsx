@@ -5,7 +5,7 @@ import { educations } from "@/utils/data/educations";
 import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
-import lottieFile from '/public/lottie/study.json';
+import lottieFile from '/public/lottie/education.json';
 
 function Education() {
   return (
@@ -36,7 +36,7 @@ function Education() {
       <div className="py-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
-            <div className="w-3/4 h-3/4">
+            <div className="w-8/12 h-8/12 sm:w-1/2 sm:h-1/2 md:w-1/2 md:h-1/2 lg:3/4 lg:3/4">
               <AnimationLottie animationPath={lottieFile} />
             </div>
           </div>

@@ -32,7 +32,7 @@ function ContactWithoutCaptcha() {
       return;
     } else {
       setError({ ...error, required: false });
-    };
+    }
 
     const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
     const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
@@ -48,10 +48,10 @@ function ContactWithoutCaptcha() {
           email: '',
           message: '',
         });
-      };
+      }
     } catch (error) {
       toast.error(error?.text || error);
-    };
+    }
   };
 
   return (
@@ -128,6 +128,6 @@ function ContactWithoutCaptcha() {
       </div>
     </div>
   );
-};
+}
 
 export default ContactWithoutCaptcha;
