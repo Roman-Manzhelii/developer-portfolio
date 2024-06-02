@@ -93,7 +93,7 @@ function HeroSection() {
                 <span className="mr-2 text-pink-500">String</span>
                 <span className="mr-2 text-white">passion</span>
                 <span className="mr-2 text-pink-500">=</span>
-                <span className="text-amber-300">"software development"</span>
+                <span className="text-amber-300">&quot;software development&quot;</span>
                 <span className="text-gray-400">;</span>
               </div>
               <br/>
@@ -105,11 +105,11 @@ function HeroSection() {
                 <span className="text-gray-400">{'{'}</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">"curiosity"</span>
+                <span className="text-amber-300">&quot;curiosity&quot;</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">"desire to turn ideas into reality"</span>
+                <span className="text-amber-300">&quot;desire to turn ideas into reality&quot;</span>
               </div>
               <div className="">
                 <span className="ml-8 text-gray-400">{'};'}</span>
@@ -123,15 +123,15 @@ function HeroSection() {
                 <span className="text-gray-400">{'{'}</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">"diving into tech blogs"</span>
+                <span className="text-amber-300">&quot;diving into tech blogs&quot;</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">"experimenting with new technologies"</span>
+                <span className="text-amber-300">&quot;experimenting with new technologies&quot;</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">"brainstorming next big idea"</span>
+                <span className="text-amber-300">&quot;brainstorming next big idea&quot;</span>
               </div>
               <div className="ml-8">
                 <span className="text-gray-400">{'};'}</span>
@@ -146,13 +146,13 @@ function HeroSection() {
               <div className="ml-12">
                 <span className="text-cyan-400">System.out.println</span>
                 <span className="text-gray-400">(</span>
-                <span className="text-amber-300">"Check my repos."</span>
+                <span className="text-amber-300">&quot;Check my repos.&quot;</span>
                 <span className="text-gray-400">);</span>
               </div>
               <div className="ml-12">
                 <span className="text-cyan-400">System.out.println</span>
                 <span className="text-gray-400">(</span>
-                <span className="text-amber-300">"Exploring tech trends."</span>
+                <span className="text-amber-300">&quot;Exploring tech trends.&quot;</span>
                 <span className="text-gray-400">);</span>
               </div>
               <div className="ml-8">
