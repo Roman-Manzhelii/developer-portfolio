@@ -12,6 +12,17 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  &-track {
+    background: #d3d6db;
+  }
+  &-thumb {
+    background: #8228ec;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #0d1224;
