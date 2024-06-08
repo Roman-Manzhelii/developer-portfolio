@@ -9,5 +9,5 @@ export const personalData = {
   github: 'https://github.com/Roman-Manzhelii',
   linkedIn: 'https://www.linkedin.com/in/roman-manzhelii-a6171226b/',
   discord: 'https://discord.gg/NXV4c3tW',
-  resume: "https://drive.google.com/file/d/1SkojbowP1q1fiKWd8mrBN05pWDpR23Ak/view?usp=drive_link"
+  resume: "https://drive.google.com/file/d/1D8HZ2Z9JH8ud8IkDysYDS1e9pPtr-NN8/view?usp=drive_link"
 }
