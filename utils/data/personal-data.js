@@ -2,7 +2,7 @@ export const personalData = {
   name: "Roman Manzhelii",
   profile: '/profile.jpg',
   designation: "Software Developer",
-  description: "My name is ROMAN MANZHELII. I work as a Software Developer at ABB, where I build web applications using React and TypeScript, create YAML pipelines, develop C++ applications, and produce cross-platform builds with CMake. I also design IoT devices. With a strong mathematical background and an innovative mindset, I focus on precision, efficiency, and optimal solutions. I am dedicated to continuously improving and applying modern technologies in my work!",
+  description: "I'm ROMAN MANZHELII, a Software Developer at ABB Company.I build web applications with React and TypeScript, set up efficient YAML pipelines, develop C++ applications with cross-platform builds using CMake, and work on IoT devices. With a solid math background and a passion for technology, I focus on delivering precise and effective solutions while constantly refining my skills!",
   email: 'romamanzheliy1@gmail.com',
   phone: '+353-85-139-6951',
   address: 'Dundalk, Co. Louth, Ireland',

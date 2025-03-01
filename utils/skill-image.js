@@ -72,6 +72,7 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import ubuntu from '/public/svg/skills/ubuntu.svg';
 
 
 export const skillsImage = (skill) => {
@@ -225,6 +226,8 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'ubuntu':
+        return ubuntu;
     default:
       break;
   }

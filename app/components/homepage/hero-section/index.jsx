@@ -23,7 +23,7 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, this is {' '}
             <span className=" text-pink-500">{personalData.name}</span>
-            {`, I'm a beginner `}
+            {`, I'm a `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
             .
           </h1>
@@ -93,7 +93,7 @@ function HeroSection() {
                 <span className="mr-2 text-pink-500">String</span>
                 <span className="mr-2 text-white">passion</span>
                 <span className="mr-2 text-pink-500">=</span>
-                <span className="text-amber-300">&quot;software development&quot;</span>
+                <span className="text-amber-300">&quot;Software Development&quot;</span>
                 <span className="text-gray-400">;</span>
               </div>
               <br/>
@@ -105,11 +105,11 @@ function HeroSection() {
                 <span className="text-gray-400">{'{'}</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">&quot;curiosity&quot;</span>
+                <span className="text-amber-300">&quot;Curiosity&quot;</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">&quot;desire to turn ideas into reality&quot;</span>
+                <span className="text-amber-300">&quot;Desire to turn ideas into reality&quot;</span>
               </div>
               <div className="">
                 <span className="ml-8 text-gray-400">{'};'}</span>
@@ -123,15 +123,15 @@ function HeroSection() {
                 <span className="text-gray-400">{'{'}</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">&quot;diving into tech blogs&quot;</span>
+                <span className="text-amber-300">&quot;Diving into tech blogs&quot;</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">&quot;experimenting with new technologies&quot;</span>
+                <span className="text-amber-300">&quot;Experimenting with new technologies&quot;</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">&quot;brainstorming next big idea&quot;</span>
+                <span className="text-amber-300">&quot;Brainstorming next big idea&quot;</span>
               </div>
               <div className="ml-8">
                 <span className="text-gray-400">{'};'}</span>
