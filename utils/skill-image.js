@@ -73,6 +73,10 @@ import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
 import ubuntu from '/public/svg/skills/ubuntu.svg';
+import redhat from '/public/svg/skills/red-hat.svg';
+import cicd from '/public/svg/skills/ci-cd.svg'
+import kubernetes from '/public/svg/skills/kubernetes.svg'
+import nodejs from '/public/svg/skills/nodeJS.svg'
 
 
 export const skillsImage = (skill) => {
@@ -100,8 +104,6 @@ export const skillsImage = (skill) => {
       return javascript;
     case 'next js':
       return nextJS;
-    case 'nuxt js':
-      return nuxtJS;
     case 'react':
       return react;
     case 'svelte':
@@ -228,6 +230,14 @@ export const skillsImage = (skill) => {
       return canva;
     case 'ubuntu':
         return ubuntu;
+    case 'red hat':
+        return redhat;
+    case 'ci/cd':
+        return cicd;
+    case 'kubernetes':
+        return kubernetes;
+    case 'node js':
+        return nodejs;           
     default:
       break;
   }
