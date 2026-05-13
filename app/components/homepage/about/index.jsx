@@ -18,17 +18,22 @@ function AboutSection() {
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
             Who I am?
           </p>
-          <p className="text-gray-200 text-sm lg:text-lg">
-            {personalData.description}
-          </p>
+          <div className="space-y-4 text-gray-200 text-sm leading-7 lg:text-lg lg:leading-8">
+            {(Array.isArray(personalData.description)
+              ? personalData.description
+              : [personalData.description]
+            ).map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </div>
         </div>
-        <div className="flex justify-center order-1 lg:order-2">
+        <div className="flex items-center justify-center order-1 lg:order-2">
           <Image
             src={personalData.profile}
-            width={280}
-            height={280}
+            width={300}
+            height={300}
             alt="Roman Manzhelii"
-            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+            className="h-[300px] w-[300px] rounded-lg object-cover"
           />
         </div>
       </div>

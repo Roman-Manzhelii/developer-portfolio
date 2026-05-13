@@ -1,8 +1,14 @@
 // @flow strict
 
+import Link from 'next/link';
 import * as React from 'react';
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 function ProjectCard({ project }) {
+  const projectLinks = project.links ?? [
+    { href: project.code, label: 'Code', type: 'code' },
+    { href: project.demo, label: 'Proof', type: 'proof' },
+  ].filter((link) => link.href);
 
   return (
     <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
@@ -30,30 +36,32 @@ function ProjectCard({ project }) {
           </div>
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-            <span className="text-gray-400">{`'`}</span>
+            <span className="text-gray-400">{`"`}</span>
             <span className="text-amber-300">{project.name}</span>
-            <span className="text-gray-400">{`',`}</span>
+            <span className="text-gray-400">{`",`}</span>
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
             <span className=" text-white">tools:</span>
-            <span className="text-gray-400">{` ['`}</span>
+            <span className="text-gray-400">{` ["`}</span>
             {
               project.tools.map((tag, i) => (
                 <React.Fragment key={i}>
                   <span className="text-amber-300">{tag}</span>
                   {
                     project.tools.length - 1 !== i &&
-                    <span className="text-gray-400">{`', '`}</span>
+                    <span className="text-gray-400">{`", "`}</span>
                   }
                 </React.Fragment>
               ))
             }
-            <span className="text-gray-400">{"],"}</span>
+            <span className="text-gray-400">{`"],`}</span>
           </div>
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
+            <span className="text-gray-400">{`"`}</span>
             <span className="text-orange-400">{project.role}</span>
+            <span className="text-gray-400">{`"`}</span>
             <span className="text-gray-400">,</span>
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
@@ -63,6 +71,28 @@ function ProjectCard({ project }) {
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
+        {
+          projectLinks.length > 0 && (
+            <div className="mt-6 flex flex-wrap gap-3">
+              {projectLinks.map(({ href, label, type }) => {
+                const Icon = type === 'code' ? FaGithub : FaExternalLinkAlt;
+
+                return (
+                  <Link
+                    key={label}
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-full border border-[#2d375f] bg-[#11152c] px-4 py-2 text-xs font-semibold uppercase tracking-wider text-white transition-colors duration-300 hover:border-pink-500 hover:text-[#16f2b3] hover:no-underline"
+                  >
+                    <Icon size={14} />
+                    <span>{label}</span>
+                  </Link>
+                );
+              })}
+            </div>
+          )
+        }
       </div>
     </div>
   );

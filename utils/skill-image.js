@@ -77,6 +77,7 @@ import redhat from '/public/svg/skills/red-hat.svg';
 import cicd from '/public/svg/skills/ci-cd.svg'
 import kubernetes from '/public/svg/skills/kubernetes.svg'
 import nodejs from '/public/svg/skills/nodeJS.svg'
+import redis from '/public/svg/skills/redis.svg'
 
 
 export const skillsImage = (skill) => {
@@ -237,7 +238,9 @@ export const skillsImage = (skill) => {
     case 'kubernetes':
         return kubernetes;
     case 'node js':
-        return nodejs;           
+        return nodejs;    
+    case 'redis':
+        return redis;        
     default:
       break;
   }

@@ -7,8 +7,8 @@ export const experiences = [
   },
   {
     id: 2,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
+    title: "Self-directed project work",
+    company: "Web, backend, mobile, IoT, data, automation and systems projects.",
     duration: "( Sep 2021 - Present )"
   }
 ]

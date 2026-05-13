@@ -5,6 +5,7 @@ import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaDiscord } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
+import { PiBookOpenTextBold } from "react-icons/pi";
 import { RiContactsFill } from "react-icons/ri";
 
 function HeroSection() {
@@ -15,6 +16,7 @@ function HeroSection() {
         alt="Hero"
         width={1572}
         height={795}
+        priority
         className="absolute -top-[98px] -z-10"
       />
 
@@ -30,11 +32,17 @@ function HeroSection() {
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
             .
           </h1>
+          <p className="mt-6 max-w-2xl text-sm leading-7 text-gray-300 md:text-base">
+            Good software has taste. It reduces complexity through clear
+            boundaries, deep modules, and contracts clear enough to keep the
+            system understandable as it grows.
+          </p>
 
           <div className="my-12 flex items-center gap-5">
             <Link
               href={personalData.github}
               target='_blank'
+              aria-label="GitHub profile"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
@@ -42,13 +50,23 @@ function HeroSection() {
             <Link
               href={personalData.linkedIn}
               target='_blank'
+              aria-label="LinkedIn profile"
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsLinkedin size={30} />
             </Link>
             <Link
+              href={personalData.mahara}
+              target='_blank'
+              aria-label="Mahara evidence portfolio"
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
+            >
+              <PiBookOpenTextBold size={30} />
+            </Link>
+            <Link
                 href={personalData.discord}
                 target='_blank'
+                aria-label="Discord"
                 className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaDiscord size={30} />
@@ -83,8 +101,8 @@ function HeroSection() {
               <div className="h-3 w-3 rounded-full bg-green-200"></div>
             </div>
           </div>
-          <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
-            <code className="font-mono text-[8px] xxs:text-[10px] xs:text-xs sm:text-sm md:text-base lg:text-base">
+          <div className="overflow-x-auto overflow-y-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
+            <code className="block min-w-max whitespace-nowrap font-mono text-[8px] leading-4 xxs:text-[10px] xs:text-xs sm:text-xs md:text-sm md:leading-5 lg:text-sm">
               <div className="blink">
                 <span className="mr-2 text-pink-500">public</span>
                 <span className="mr-2 text-pink-500">class</span>
@@ -93,26 +111,39 @@ function HeroSection() {
               </div>
               <div className="ml-8">
                 <span className="mr-2 text-pink-500">private</span>
+                <span className="mr-2 text-pink-500">final</span>
                 <span className="mr-2 text-pink-500">String</span>
-                <span className="mr-2 text-white">passion</span>
+                <span className="mr-2 text-white">role</span>
                 <span className="mr-2 text-pink-500">=</span>
-                <span className="text-amber-300">&quot;Software Development&quot;</span>
+                <span className="text-amber-300">&quot;Software Developer&quot;</span>
                 <span className="text-gray-400">;</span>
               </div>
-              <br/>
               <div className="ml-8">
                 <span className="mr-2 text-pink-500">private</span>
+                <span className="mr-2 text-pink-500">final</span>
                 <span className="mr-2 text-pink-500">String[]</span>
-                <span className="mr-2 text-white">fuel</span>
+                <span className="mr-2 text-white">work</span>
                 <span className="mr-2 text-pink-500">=</span>
                 <span className="text-gray-400">{'{'}</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">&quot;Curiosity&quot;</span>
+                <span className="text-amber-300">&quot;web applications&quot;</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">&quot;Desire to turn ideas into reality&quot;</span>
+                <span className="text-amber-300">&quot;backend APIs&quot;</span>
+                <span className="text-gray-400">,</span>
+              </div>
+              <div className="ml-12">
+                <span className="text-amber-300">&quot;CI/CD pipelines&quot;</span>
+                <span className="text-gray-400">,</span>
+              </div>
+              <div className="ml-12">
+                <span className="text-amber-300">&quot;IoT systems&quot;</span>
+                <span className="text-gray-400">,</span>
+              </div>
+              <div className="ml-12">
+                <span className="text-amber-300">&quot;data analysis&quot;</span>
               </div>
               <div className="">
                 <span className="ml-8 text-gray-400">{'};'}</span>
@@ -120,21 +151,26 @@ function HeroSection() {
               <br/>
               <div className="ml-8">
                 <span className="mr-2 text-pink-500">private</span>
+                <span className="mr-2 text-pink-500">final</span>
                 <span className="mr-2 text-pink-500">String[]</span>
-                <span className="mr-2 text-white">currentActivities</span>
+                <span className="mr-2 text-white">habits</span>
                 <span className="mr-2 text-pink-500">=</span>
                 <span className="text-gray-400">{'{'}</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">&quot;Diving into tech blogs&quot;</span>
+                <span className="text-amber-300">&quot;small interfaces&quot;</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">&quot;Experimenting with new technologies&quot;</span>
+                <span className="text-amber-300">&quot;generalize repeated logic&quot;</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div className="ml-12">
-                <span className="text-amber-300">&quot;Brainstorming next big idea&quot;</span>
+                <span className="text-amber-300">&quot;handle edge cases in the main flow&quot;</span>
+                <span className="text-gray-400">,</span>
+              </div>
+              <div className="ml-12">
+                <span className="text-amber-300">&quot;explain decisions, not syntax&quot;</span>
               </div>
               <div className="ml-8">
                 <span className="text-gray-400">{'};'}</span>
@@ -142,21 +178,14 @@ function HeroSection() {
               <br/>
               <div className="ml-8">
                 <span className="mr-2 text-pink-500">public</span>
-                <span className="mr-2 text-pink-500">void</span>
-                <span className="mr-2 text-white">checkOut</span>
+                <span className="mr-2 text-pink-500">String</span>
+                <span className="mr-2 text-white">build</span>
                 <span className="text-gray-400">{'() {'}</span>
               </div>
               <div className="ml-12">
-                <span className="text-cyan-400">System.out.println</span>
-                <span className="text-gray-400">(</span>
-                <span className="text-amber-300">&quot;Check my repos.&quot;</span>
-                <span className="text-gray-400">);</span>
-              </div>
-              <div className="ml-12">
-                <span className="text-cyan-400">System.out.println</span>
-                <span className="text-gray-400">(</span>
-                <span className="text-amber-300">&quot;Exploring tech trends.&quot;</span>
-                <span className="text-gray-400">);</span>
+                <span className="mr-2 text-pink-500">return</span>
+                <span className="text-amber-300">&quot;plan -&gt; implement -&gt; test -&gt; deploy&quot;</span>
+                <span className="text-gray-400">;</span>
               </div>
               <div className="ml-8">
                 <span className="text-gray-400">{'}'}</span>
@@ -182,7 +211,7 @@ function HeroSection() {
               </div>
               <div className="ml-12">
                 <span className="text-cyan-400">roman.</span>
-                <span className="text-white">checkOut</span>
+                <span className="text-white">build</span>
                 <span className="text-gray-400">();</span>
               </div>
               <div className="ml-8">

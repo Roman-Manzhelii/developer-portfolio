@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Portfolio of Roman Manzhelii',
-  description: 'This is the portfolio of Roman Manzhelii. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
+  description: 'Roman Manzhelii is a software developer and DKIT BSc (Hons) Software Development graduate working across product UI, backend boundaries, automation, data, IoT, and systems programming.',
 };
 
 export default function RootLayout({ children }) {

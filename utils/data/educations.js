@@ -2,7 +2,7 @@ export const educations = [
   {
     id: 1,
     title: "BSc (Hons) in Computing in Software Development",
-    duration: "2023 - Present",
+    duration: "2023 - May 2026",
     institution: "Dundalk Institute of Technology",
   },
   {
