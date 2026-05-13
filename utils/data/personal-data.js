@@ -14,5 +14,5 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/roman-manzhelii/',
   mahara: 'https://mahara.dkit.ie/view/view.php?t=b4ca4a49cc228cb29d14',
   discord: 'https://discord.gg/NXV4c3tW',
-  resume: "https://drive.google.com/file/d/1ytZwtvBL5RuE2TOU1UDHz3cIk4JDqaa1/view?usp=sharing"
+  resume: "https://docs.google.com/document/d/12ay-7v1UQRbjYmdVoqDt4-vQGHnMm5C9/edit?usp=sharing&ouid=114379767835747196870&rtpof=true&sd=true"
 }
