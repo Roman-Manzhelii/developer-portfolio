@@ -1,0 +1,136 @@
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: EPERM: operation not permitted, rename 'C:\Projects\developer-portfolio\.next\cache\webpack\client-development\1.pack.gz_' -> 'C:\Projects\developer-portfolio\.next\cache\webpack\client-development\1.pack.gz'
+ ⨯ ./public/svg/skills/red-hat.svg
+Error: ENOENT: no such file or directory, open 'C:\Projects\developer-portfolio\public\svg\skills\red-hat.svg'
+
+Import trace for requested module:
+./public/svg/skills/red-hat.svg
+./utils/skill-image.js
+./app/components/homepage/skills/index.jsx
+ ⨯ ./public/svg/skills/red-hat.svg
+Error: ENOENT: no such file or directory, open 'C:\Projects\developer-portfolio\public\svg\skills\red-hat.svg'
+
+Import trace for requested module:
+./public/svg/skills/red-hat.svg
+./utils/skill-image.js
+./app/components/homepage/skills/index.jsx
+ ⨯ ./public/svg/skills/php.svg
+Error: ENOENT: no such file or directory, open 'C:\Projects\developer-portfolio\public\svg\skills\php.svg'
+
+Import trace for requested module:
+./public/svg/skills/php.svg
+./utils/skill-image.js
+./app/components/homepage/skills/index.jsx
+ ⨯ ./public/svg/skills/php.svg
+Error: ENOENT: no such file or directory, open 'C:\Projects\developer-portfolio\public\svg\skills\php.svg'
+
+Import trace for requested module:
+./public/svg/skills/php.svg
+./utils/skill-image.js
+./app/components/homepage/skills/index.jsx
+ ⨯ ./public/svg/skills/ci-cd.svg
+Error: ENOENT: no such file or directory, open 'C:\Projects\developer-portfolio\public\svg\skills\ci-cd.svg'
+
+Import trace for requested module:
+./public/svg/skills/ci-cd.svg
+./utils/skill-image.js
+./app/components/homepage/skills/index.jsx
+ ⨯ ./public/svg/skills/ci-cd.svg
+Error: ENOENT: no such file or directory, open 'C:\Projects\developer-portfolio\public\svg\skills\ci-cd.svg'
+
+Import trace for requested module:
+./public/svg/skills/ci-cd.svg
+./utils/skill-image.js
+./app/components/homepage/skills/index.jsx
+ ⨯ ./public/svg/skills/ci-cd.svg
+Error: ENOENT: no such file or directory, open 'C:\Projects\developer-portfolio\public\svg\skills\ci-cd.svg'
+
+Import trace for requested module:
+./public/svg/skills/ci-cd.svg
+./utils/skill-image.js
+./app/components/homepage/skills/index.jsx
+ ⨯ ./public/svg/skills/ci-cd.svg
+Error: ENOENT: no such file or directory, open 'C:\Projects\developer-portfolio\public\svg\skills\ci-cd.svg'
+
+Import trace for requested module:
+./public/svg/skills/ci-cd.svg
+./utils/skill-image.js
+./app/components/homepage/skills/index.jsx
+ ⨯ ./public/svg/skills/ci-cd.svg
+Error: ENOENT: no such file or directory, open 'C:\Projects\developer-portfolio\public\svg\skills\ci-cd.svg'
+
+Import trace for requested module:
+./public/svg/skills/ci-cd.svg
+./utils/skill-image.js
+./app/components/homepage/skills/index.jsx
+ ⨯ ./public/svg/skills/ci-cd.svg
+Error: ENOENT: no such file or directory, open 'C:\Projects\developer-portfolio\public\svg\skills\ci-cd.svg'
+
+Import trace for requested module:
+./public/svg/skills/ci-cd.svg
+./utils/skill-image.js
+./app/components/homepage/skills/index.jsx
+ ⨯ ./public/svg/skills/ci-cd.svg
+Error: ENOENT: no such file or directory, open 'C:\Projects\developer-portfolio\public\svg\skills\ci-cd.svg'
+
+Import trace for requested module:
+./public/svg/skills/ci-cd.svg
+./utils/skill-image.js
+./app/components/homepage/skills/index.jsx
+ ⨯ ./utils/skill-image.js:46:0
+Module not found: Can't resolve '/public/svg/skills/nextJS.svg'
+[0m [90m 44 |[39m [36mimport[39m mongoDB [36mfrom[39m [32m'/public/svg/skills/mongoDB.svg'[39m[33m;[39m[0m
+[0m [90m 45 |[39m [36mimport[39m mysql [36mfrom[39m [32m'/public/svg/skills/mysql.svg'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 46 |[39m [36mimport[39m nextJS [36mfrom[39m [32m'/public/svg/skills/nextJS.svg'[39m[33m;[39m[0m
+[0m [90m 47 |[39m [36mimport[39m nginx [36mfrom[39m [32m'/public/svg/skills/nginx.svg'[39m[33m;[39m[0m
+[0m [90m 48 |[39m [36mimport[39m numpy [36mfrom[39m [32m'/public/svg/skills/numpy.svg'[39m[33m;[39m[0m
+[0m [90m 49 |[39m [36mimport[39m opencv [36mfrom[39m [32m'/public/svg/skills/opencv.svg'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./app/components/homepage/skills/index.jsx
+ ⨯ ./utils/skill-image.js:46:0
+Module not found: Can't resolve '/public/svg/skills/nextJS.svg'
+[0m [90m 44 |[39m [36mimport[39m mongoDB [36mfrom[39m [32m'/public/svg/skills/mongoDB.svg'[39m[33m;[39m[0m
+[0m [90m 45 |[39m [36mimport[39m mysql [36mfrom[39m [32m'/public/svg/skills/mysql.svg'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 46 |[39m [36mimport[39m nextJS [36mfrom[39m [32m'/public/svg/skills/nextJS.svg'[39m[33m;[39m[0m
+[0m [90m 47 |[39m [36mimport[39m nginx [36mfrom[39m [32m'/public/svg/skills/nginx.svg'[39m[33m;[39m[0m
+[0m [90m 48 |[39m [36mimport[39m numpy [36mfrom[39m [32m'/public/svg/skills/numpy.svg'[39m[33m;[39m[0m
+[0m [90m 49 |[39m [36mimport[39m nuxtJS [36mfrom[39m [32m'/public/svg/skills/nuxtJS.svg'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./app/components/homepage/skills/index.jsx
+ ⨯ ./utils/skill-image.js:46:0
+Module not found: Can't resolve '/public/svg/skills/nextJS.svg'
+[0m [90m 44 |[39m [36mimport[39m mongoDB [36mfrom[39m [32m'/public/svg/skills/mongoDB.svg'[39m[33m;[39m[0m
+[0m [90m 45 |[39m [36mimport[39m mysql [36mfrom[39m [32m'/public/svg/skills/mysql.svg'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 46 |[39m [36mimport[39m nextJS [36mfrom[39m [32m'/public/svg/skills/nextJS.svg'[39m[33m;[39m[0m
+[0m [90m 47 |[39m [36mimport[39m nginx [36mfrom[39m [32m'/public/svg/skills/nginx.svg'[39m[33m;[39m[0m
+[0m [90m 48 |[39m [36mimport[39m numpy [36mfrom[39m [32m'/public/svg/skills/numpy.svg'[39m[33m;[39m[0m
+[0m [90m 49 |[39m [36mimport[39m nuxtJS [36mfrom[39m [32m'/public/svg/skills/nuxtJS.svg'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./app/components/homepage/skills/index.jsx
+ ⨯ ./utils/skill-image.js:77:0
+Module not found: Can't resolve '/public/svg/skills/ci-cd.svg'
+[0m [90m 75 |[39m [36mimport[39m ubuntu [36mfrom[39m [32m'/public/svg/skills/ubuntu.svg'[39m[33m;[39m[0m
+[0m [90m 76 |[39m [36mimport[39m redhat [36mfrom[39m [32m'/public/svg/skills/red-hat.svg'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 77 |[39m [36mimport[39m cicd [36mfrom[39m [32m'/public/svg/skills/ci-cd.svg'[39m[0m
+[0m [90m 78 |[39m [36mimport[39m kubernetes [36mfrom[39m [32m'/public/svg/skills/kubernetes.svg'[39m[0m
+[0m [90m 79 |[39m [36mimport[39m nodejs [36mfrom[39m [32m'/public/svg/skills/nodeJS.svg'[39m[0m
+[0m [90m 80 |[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./app/components/homepage/skills/index.jsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Projects\developer-portfolio\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Projects\developer-portfolio\.next\cache\webpack\client-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Projects\developer-portfolio\.next\cache\webpack\server-development\0.pack.gz_' -> 'C:\Projects\developer-portfolio\.next\cache\webpack\server-development\0.pack.gz'

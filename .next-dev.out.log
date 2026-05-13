@@ -1,0 +1,67 @@
+
+> developer-portfolio@0.1.0 dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+   ▲ Next.js 14.1.3
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+
+ ✓ Ready in 1734ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.8s (1035 modules)
+ ✓ Compiled in 1117ms (457 modules)
+ ✓ Compiled /favicon.ico in 474ms (608 modules)
+ ✓ Compiled in 796ms (1018 modules)
+ ✓ Compiled in 343ms (1032 modules)
+ ✓ Compiled in 1854ms (1033 modules)
+ ✓ Compiled in 1147ms (1033 modules)
+ ✓ Compiled in 597ms (1033 modules)
+ ✓ Compiled in 520ms (1033 modules)
+ ✓ Compiled in 501ms (1033 modules)
+ ✓ Compiled in 485ms (1033 modules)
+ ✓ Compiled in 434ms (1033 modules)
+ ✓ Compiled in 661ms (1033 modules)
+ ✓ Compiled in 561ms (1033 modules)
+ ✓ Compiled in 418ms (1033 modules)
+ ✓ Compiled in 413ms (1033 modules)
+ ✓ Compiled in 491ms (1033 modules)
+ ✓ Compiled in 412ms (1033 modules)
+ ✓ Compiled in 615ms (1033 modules)
+ ✓ Compiled in 391ms (1033 modules)
+ ✓ Compiled in 500ms (1033 modules)
+ ✓ Compiled in 404ms (1033 modules)
+ ✓ Compiled in 332ms (1033 modules)
+ ✓ Compiled in 470ms (1033 modules)
+ ✓ Compiled in 394ms (577 modules)
+ ✓ Compiled in 402ms (577 modules)
+ ✓ Compiled in 274ms (577 modules)
+ ✓ Compiled in 567ms (1033 modules)
+ ✓ Compiled in 492ms (1033 modules)
+   Reload env: .env
+ ✓ Compiled in 340ms (1033 modules)
+   Reload env: .env
+ ✓ Compiled in 4.5s (1068 modules)
+ ✓ Compiled in 459ms (1033 modules)
+ ✓ Compiled in 211ms (1019 modules)
+ ✓ Compiled in 497ms (1033 modules)
+ ✓ Compiled in 210ms (1019 modules)
+ ✓ Compiled in 404ms (1019 modules)
+ ✓ Compiled in 211ms (577 modules)
+ ✓ Compiled in 279ms (577 modules)
+ ✓ Compiled in 162ms (577 modules)
+ ✓ Compiled in 323ms (1019 modules)
+ ✓ Compiled in 475ms (1033 modules)
+ ✓ Compiled in 285ms (1019 modules)
+ ✓ Compiled in 309ms (1019 modules)
+ ✓ Compiled in 214ms (1019 modules)
+ ✓ Compiled in 269ms (1019 modules)
+ ✓ Compiled in 279ms (1019 modules)
+ ✓ Compiled in 215ms (1019 modules)
+ ✓ Compiled in 308ms (1019 modules)
+ ✓ Compiled in 233ms (1019 modules)
+ ✓ Compiled in 1953ms (1021 modules)
+ ✓ Compiled in 314ms (1021 modules)
+ ✓ Compiled /not-found in 255ms (1026 modules)
+ ✓ Compiled in 543ms (1028 modules)
+ ✓ Compiled in 686ms (1035 modules)
+ ✓ Compiled in 215ms (578 modules)
