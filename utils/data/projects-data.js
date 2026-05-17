@@ -10,7 +10,7 @@ export const projectsData = [
         role: 'System architecture, platform engineering and SecDevOps',
         links: [
             { label: 'Code', href: 'https://github.com/AIclipse-Organisation/AIclipse', type: 'code' },
-            { label: 'App proof', href: 'https://mahara.dkit.ie/view/view.php?id=150762', type: 'proof' },
+            { label: 'App proof', href: 'https://mahara.dkit.ie/view/view.php?t=8d63c3591f0f0d5a87f5', type: 'proof' },
             { label: 'Contribution proof', href: 'https://mahara.dkit.ie/view/view.php?t=b4ca4a49cc228cb29d14', type: 'proof' },
         ],
         image: crefin,
@@ -23,7 +23,7 @@ export const projectsData = [
         role: 'IoT application and hardware integration',
         links: [
             { label: 'Code', href: 'https://github.com/Roman-Manzhelii/Safelor', type: 'code' },
-            { label: 'Proof', href: 'https://mahara.dkit.ie/view/view.php?id=133981', type: 'proof' },
+            { label: 'Proof', href: 'https://mahara.dkit.ie/view/view.php?t=vlGZ1JKxBejAOgznD5SM', type: 'proof' },
         ],
         image: crefin,
     },
